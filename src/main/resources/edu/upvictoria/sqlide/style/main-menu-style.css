@@ -1,0 +1,43 @@
+/* General dark mode background and text color */
+.root {
+    -fx-background-color: #2b2b2b;
+}
+
+/* Styling the heading text */
+#heading {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-padding: 20px;
+}
+
+/* Styling the normal text */
+#text {
+    -fx-font-size: 14px;
+    -fx-font-weight: normal;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-padding: 10px;
+}
+
+/* Centering the buttons container */
+#buttons-container {
+    -fx-alignment: center;
+    -fx-spacing: 20px; /* Space between buttons */
+}
+
+/* Styling the buttons */
+.open-editor-btn {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-cursor: hand; /* Change cursor to pointer */
+}
+
+/* Centering the text inside the buttons */
+.open-editor-btn Text {
+    -fx-alignment: center;
+    -fx-text-fill: white; /* Ensure text inside buttons is white */
+}
